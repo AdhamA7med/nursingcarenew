@@ -17,7 +17,7 @@ export const WhatsAppFloat = () => {
         
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/01203888230"
+          href="https://wa.me/201203888230"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 animate-pulse-slow"
