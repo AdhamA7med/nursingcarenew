@@ -135,7 +135,7 @@ export const Header = () => {
                 </button>
                 <Button 
                   className="bg-accent-500 hover:bg-accent-600 text-white px-6 py-3 rounded-full shadow-lg mt-4"
-                  onClick={() => window.open('https://wa.me/01203888230', '_blank')}
+                  onClick={() => window.open('https://wa.me/201203888230', '_blank')}
                 >
                   <i className="fab fa-whatsapp ml-2"></i>
                   احجز الآن
