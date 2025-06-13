@@ -5,19 +5,19 @@ export const WhatsAppFloat = () => {
   const [showTooltip, setShowTooltip] = useState(false);
 
   return (
-    <div className="fixed bottom-6 left-6 z-50">
+    <div className="fixed bottom-6 right-6 z-50">
       <div className="relative">
         {/* Tooltip */}
         {showTooltip && (
-          <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-3 py-2 rounded-lg whitespace-nowrap text-sm shadow-lg">
+          <div className="absolute bottom-16 right-1/2 transform translate-x-1/2 bg-gray-800 text-white px-3 py-2 rounded-lg whitespace-nowrap text-sm shadow-lg">
             تواصل معنا عبر واتساب
-            <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-gray-800 rotate-45"></div>
+            <div className="absolute -bottom-1 right-1/2 transform translate-x-1/2 w-2 h-2 bg-gray-800 rotate-45"></div>
           </div>
         )}
         
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/201203888230"
+          href="https://wa.me/201203888230?text=مرحباً، أرغب في الاستفسار عن خدمات التمريض المنزلي"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 animate-pulse-slow"

@@ -1,17 +1,17 @@
 
 export const ContactSection = () => {
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-white via-accent-50/30 to-white relative overflow-hidden">
+    <section id="contact" className="py-20 bg-gradient-to-br from-white via-primary-50/30 to-white relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-20 w-48 h-48 bg-primary rounded-full blur-3xl animate-pulse-slow"></div>
-        <div className="absolute bottom-20 right-20 w-40 h-40 bg-accent-500 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute bottom-20 right-20 w-40 h-40 bg-green-500 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '2s' }}></div>
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16" data-aos="fade-up">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6">تواصل معنا</h2>
-          <div className="w-32 h-1 bg-gradient-to-r from-primary via-accent-500 to-primary mx-auto mb-8 rounded-full"></div>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-primary to-primary-600 bg-clip-text text-transparent mb-6">تواصل معنا</h2>
+          <div className="w-32 h-1 bg-gradient-to-r from-primary via-green-500 to-primary mx-auto mb-8 rounded-full"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             نحن هنا لخدمتكم على مدار الساعة. تواصلوا معنا للحصول على أفضل رعاية طبية منزلية
           </p>
@@ -31,15 +31,15 @@ export const ContactSection = () => {
               <h3 className="text-xl font-semibold text-primary mb-4">اتصل بنا</h3>
               <p className="text-gray-600 mb-4">للحجز والاستفسارات</p>
               <a 
-                href="tel:01203888230" 
+                href="tel:+201203888230" 
                 className="text-2xl font-bold text-primary hover:text-primary-600 transition-colors block group-hover:scale-105 transform duration-200" 
                 dir="ltr"
               >
                 01203888230
               </a>
               <button 
-                onClick={() => window.open('tel:01203888230', '_self')}
-                className="mt-4 bg-primary text-white px-6 py-3 rounded-full hover:bg-primary-600 transition-all duration-300 transform hover:scale-105"
+                onClick={() => window.open('tel:+201203888230', '_self')}
+                className="mt-4 bg-gradient-to-r from-primary to-primary-600 text-white px-6 py-3 rounded-full hover:from-primary-600 hover:to-primary-700 transition-all duration-300 transform hover:scale-105"
               >
                 اتصل الآن
               </button>
@@ -56,7 +56,7 @@ export const ContactSection = () => {
               <h3 className="text-xl font-semibold text-primary mb-4">واتساب</h3>
               <p className="text-gray-600 mb-4">تواصل سريع ومباشر</p>
               <a 
-                href="https://wa.me/01203888230" 
+                href="https://wa.me/201203888230?text=مرحباً، أرغب في الاستفسار عن خدمات التمريض المنزلي" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors block group-hover:scale-105 transform duration-200" 
@@ -65,27 +65,27 @@ export const ContactSection = () => {
                 01203888230
               </a>
               <button 
-                onClick={() => window.open('https://wa.me/01203888230', '_blank')}
-                className="mt-4 bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 transition-all duration-300 transform hover:scale-105"
+                onClick={() => window.open('https://wa.me/201203888230?text=مرحباً، أرغب في الاستفسار عن خدمات التمريض المنزلي', '_blank')}
+                className="mt-4 bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-full hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105"
               >
                 أرسل رسالة
               </button>
             </div>
 
             <div 
-              className="text-center bg-gradient-to-br from-accent-50 to-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 group border border-accent-200/50"
+              className="text-center bg-gradient-to-br from-primary-50/50 to-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 group border border-primary/20"
               data-aos="fade-up"
               data-aos-delay="600"
             >
-              <div className="bg-gradient-to-br from-accent-500 to-accent-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-all duration-300 shadow-lg">
+              <div className="bg-gradient-to-br from-primary to-primary-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-all duration-300 shadow-lg">
                 <i className="fas fa-map-marker-alt text-2xl text-white"></i>
               </div>
               <h3 className="text-xl font-semibold text-primary mb-4">موقعنا</h3>
               <p className="text-gray-600 mb-4">نخدم جميع أنحاء</p>
-              <div className="text-2xl font-bold text-accent-600 group-hover:scale-105 transform duration-200">
+              <div className="text-2xl font-bold text-primary group-hover:scale-105 transform duration-200">
                 القاهرة، مصر
               </div>
-              <div className="mt-4 bg-accent-500 text-white px-6 py-3 rounded-full inline-block">
+              <div className="mt-4 bg-gradient-to-r from-primary to-primary-600 text-white px-6 py-3 rounded-full inline-block">
                 <i className="fas fa-map text-sm ml-2"></i>
                 جميع الأحياء
               </div>
@@ -94,14 +94,14 @@ export const ContactSection = () => {
 
           {/* Enhanced Service Hours */}
           <div className="text-center" data-aos="fade-up" data-aos-delay="800">
-            <div className="bg-gradient-to-r from-primary-50 via-white to-accent-50 p-10 rounded-3xl shadow-xl max-w-4xl mx-auto border border-primary/10 relative overflow-hidden">
+            <div className="bg-gradient-to-r from-primary-50 via-white to-primary-50 p-10 rounded-3xl shadow-xl max-w-4xl mx-auto border border-primary/10 relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent"></div>
               <div className="relative z-10">
-                <h3 className="text-3xl font-semibold text-primary mb-8">ساعات العمل والخدمة</h3>
+                <h3 className="text-3xl font-semibold bg-gradient-to-r from-primary to-primary-600 bg-clip-text text-transparent mb-8">ساعات العمل والخدمة</h3>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="bg-white p-6 rounded-2xl shadow-lg border border-primary/10 hover:border-primary/20 transition-all group">
                     <div className="flex items-center justify-center mb-4">
-                      <div className="bg-primary w-16 h-16 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                      <div className="bg-gradient-to-br from-primary to-primary-600 w-16 h-16 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
                         <i className="fas fa-clock text-2xl text-white"></i>
                       </div>
                     </div>
@@ -113,9 +113,9 @@ export const ContactSection = () => {
                     </div>
                   </div>
                   
-                  <div className="bg-white p-6 rounded-2xl shadow-lg border border-accent-200/50 hover:border-accent-300 transition-all group">
+                  <div className="bg-white p-6 rounded-2xl shadow-lg border border-primary/10 hover:border-primary/20 transition-all group">
                     <div className="flex items-center justify-center mb-4">
-                      <div className="bg-accent-500 w-16 h-16 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                      <div className="bg-gradient-to-br from-green-500 to-green-600 w-16 h-16 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
                         <i className="fas fa-phone-alt text-2xl text-white"></i>
                       </div>
                     </div>
@@ -129,9 +129,9 @@ export const ContactSection = () => {
                 </div>
 
                 {/* Emergency Contact */}
-                <div className="mt-8 bg-red-50 p-6 rounded-2xl border-2 border-red-200">
+                <div className="mt-8 bg-gradient-to-r from-red-50 to-orange-50 p-6 rounded-2xl border-2 border-red-200">
                   <div className="flex items-center justify-center mb-4">
-                    <div className="bg-red-500 w-12 h-12 rounded-full flex items-center justify-center animate-pulse">
+                    <div className="bg-gradient-to-r from-red-500 to-red-600 w-12 h-12 rounded-full flex items-center justify-center animate-pulse">
                       <i className="fas fa-exclamation-triangle text-white"></i>
                     </div>
                   </div>
@@ -139,17 +139,17 @@ export const ContactSection = () => {
                   <p className="text-red-600 mb-4">للحالات الطارئة، اتصل بنا فوراً</p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a 
-                      href="tel:01203888230"
-                      className="bg-red-500 text-white px-6 py-3 rounded-full hover:bg-red-600 transition-all duration-300 transform hover:scale-105 font-semibold"
+                      href="tel:+201203888230"
+                      className="bg-gradient-to-r from-red-500 to-red-600 text-white px-6 py-3 rounded-full hover:from-red-600 hover:to-red-700 transition-all duration-300 transform hover:scale-105 font-semibold"
                     >
                       <i className="fas fa-phone ml-2"></i>
                       اتصال طوارئ
                     </a>
                     <a 
-                      href="https://wa.me/01203888230"
+                      href="https://wa.me/201203888230?text=مرحباً، لدي حالة طوارئ وأحتاج خدمات التمريض المنزلي"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 transition-all duration-300 transform hover:scale-105 font-semibold"
+                      className="bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-full hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 font-semibold"
                     >
                       <i className="fab fa-whatsapp ml-2"></i>
                       واتساب طوارئ

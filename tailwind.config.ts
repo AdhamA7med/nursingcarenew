@@ -29,12 +29,17 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#058c8c',
-					50: '#f0fdfa',
-					100: '#ccfbf1',
-					500: '#058c8c',
-					600: '#0d9488',
+					DEFAULT: '#0891b2',
+					50: '#f0f9ff',
+					100: '#e0f2fe',
+					200: '#bae6fd',
+					300: '#7dd3fc',
+					400: '#38bdf8',
+					500: '#0891b2',
+					600: '#0e7490',
 					700: '#0f766e',
+					800: '#155e75',
+					900: '#164e63',
 					foreground: '#ffffff'
 				},
 				secondary: {
@@ -47,7 +52,12 @@ export default {
 					DEFAULT: '#10b981',
 					50: '#ecfdf5',
 					100: '#d1fae5',
+					200: '#a7f3d0',
+					300: '#6ee7b7',
+					400: '#34d399',
 					500: '#10b981',
+					600: '#059669',
+					700: '#047857',
 					foreground: '#ffffff'
 				},
 				destructive: {
@@ -114,13 +124,24 @@ export default {
 					'50%': {
 						transform: 'translateY(-10px)'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'pulse-slow': 'pulse-slow 3s ease-in-out infinite',
-				'float': 'float 3s ease-in-out infinite'
+				'float': 'float 3s ease-in-out infinite',
+				'fade-in': 'fade-in 0.3s ease-out'
 			}
 		}
 	},
