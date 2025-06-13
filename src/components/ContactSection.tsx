@@ -1,4 +1,3 @@
-
 export const ContactSection = () => {
   return (
     <section id="contact" className="py-20 bg-gradient-to-br from-white via-primary-50/30 to-white relative overflow-hidden">
@@ -56,7 +55,7 @@ export const ContactSection = () => {
               <h3 className="text-xl font-semibold text-primary mb-4">واتساب</h3>
               <p className="text-gray-600 mb-4">تواصل سريع ومباشر</p>
               <a 
-                href="https://wa.me/201203888230?text=مرحباً، أرغب في الاستفسار عن خدمات التمريض المنزلي" 
+                href="https://wa.me/201203888230?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%85%D8%B1%D9%8A%D8%B6%20%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors block group-hover:scale-105 transform duration-200" 
@@ -65,7 +64,7 @@ export const ContactSection = () => {
                 01203888230
               </a>
               <button 
-                onClick={() => window.open('https://wa.me/201203888230?text=مرحباً، أرغب في الاستفسار عن خدمات التمريض المنزلي', '_blank')}
+                onClick={() => window.open('https://wa.me/201203888230?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%85%D8%B1%D9%8A%D8%B6%20%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A', '_blank')}
                 className="mt-4 bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-full hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105"
               >
                 أرسل رسالة
@@ -146,7 +145,7 @@ export const ContactSection = () => {
                       اتصال طوارئ
                     </a>
                     <a 
-                      href="https://wa.me/201203888230?text=مرحباً، لدي حالة طوارئ وأحتاج خدمات التمريض المنزلي"
+                      href="https://wa.me/201203888230?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D9%84%D8%AF%D9%8A%20%D8%AD%D8%A7%D9%84%D8%A9%20%D8%B7%D9%88%D8%A7%D8%B1%D8%A6%20%D9%88%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%85%D8%B1%D9%8A%D8%B6%20%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-full hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 font-semibold"
