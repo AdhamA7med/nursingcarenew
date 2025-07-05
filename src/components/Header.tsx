@@ -38,7 +38,7 @@ export const Header = () => {
               <i className="fas fa-user-nurse text-xl text-white"></i>
             </div>
             <div>
-              <h1 className="text-xl font-bold bg-gradient-to-r from-primary to-primary-600 bg-clip-text text-transparent">رعاية تمريضية جديدة</h1>
+              <h1 className="text-xl font-bold bg-gradient-to-r from-primary to-primary-600 bg-clip-text text-transparent">يور نيرس</h1>
               <p className="text-sm text-gray-600">خدمات التمريض المنزلي</p>
             </div>
           </div>
