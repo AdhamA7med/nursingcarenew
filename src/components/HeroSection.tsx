@@ -32,8 +32,8 @@ export const HeroSection = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div data-aos="fade-up" data-aos-delay="200">
           <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold text-primary mb-6 leading-tight">
-            رعاية تمريضية
-            <span className="block text-accent-500 animate-pulse-slow">جديدة</span>
+يور
+            <span className="block text-accent-500 animate-pulse-slow">نيرس</span>
           </h1>
         </div>
         
@@ -47,7 +47,7 @@ export const HeroSection = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary-600 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 group"
-            onClick={() => window.open('https://wa.me/01203888230', '_blank')}
+            onClick={() => window.open('https://wa.me/01099785311', '_blank')}
           >
             <i className="fab fa-whatsapp ml-2 text-xl group-hover:animate-bounce"></i>
             احجز استشارة مجانية
