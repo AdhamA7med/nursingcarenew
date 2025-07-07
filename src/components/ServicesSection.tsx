@@ -92,7 +92,7 @@ export const ServicesSection = () => {
 
                 {/* CTA Button */}
                 <button 
-                  onClick={() => window.open('https://wa.me/01099785311', '_blank')}
+                  onClick={() => window.open('https://wa.me/01515329414', '_blank')}
                   className="bg-gradient-to-r from-primary to-accent-500 text-white px-6 py-3 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0"
                 >
                   <i className="fab fa-whatsapp ml-2"></i>
@@ -113,7 +113,7 @@ export const ServicesSection = () => {
                 تواصل معنا الآن للحصول على استشارة طبية مجانية وتقييم احتياجاتك
               </p>
               <button 
-                onClick={() => window.open('https://wa.me/01099785311', '_blank')}
+                onClick={() => window.open('https://wa.me/01515329414', '_blank')}
                 className="bg-white text-primary px-8 py-4 rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl font-semibold text-lg"
               >
                 <i className="fab fa-whatsapp ml-2 text-green-500"></i>
