@@ -47,7 +47,7 @@ export const HeroSection = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary-600 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 group"
-            onClick={() => window.open('https://wa.me/01515329414', '_blank')}
+            onClick={() => window.open('https://wa.me/01009457979', '_blank')}
           >
             <i className="fab fa-whatsapp ml-2 text-xl group-hover:animate-bounce"></i>
             احجز استشارة مجانية
