@@ -32,7 +32,7 @@ export const HeroSection = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div data-aos="fade-up" data-aos-delay="200">
           <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold text-primary mb-6 leading-tight">
-نيرس كلينيك
+نيرس
             <span className="block text-accent-500 animate-pulse-slow">كلينيك</span>
           </h1>
         </div>
