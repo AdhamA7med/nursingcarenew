@@ -113,7 +113,7 @@ export const ServicesSection = () => {
                 تواصل معنا الآن للحصول على استشارة طبية مجانية وتقييم احتياجاتك
               </p>
               <button 
-                onClick={() => window.open('https://wa.me/01009457979', '_blank')}
+                onClick={() => window.open('https://wa.me/01148249020', '_blank')}
                 className="bg-white text-primary px-8 py-4 rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl font-semibold text-lg"
               >
                 <i className="fab fa-whatsapp ml-2 text-green-500"></i>
