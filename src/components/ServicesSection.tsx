@@ -92,7 +92,7 @@ export const ServicesSection = () => {
 
                 {/* CTA Button */}
                 <button 
-                  onClick={() => window.open('https://wa.me/01009457979', '_blank')}
+                  onClick={() => window.open('https://wa.me/01148249020', '_blank')}
                   className="bg-gradient-to-r from-primary to-accent-500 text-white px-6 py-3 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0"
                 >
                   <i className="fab fa-whatsapp ml-2"></i>
