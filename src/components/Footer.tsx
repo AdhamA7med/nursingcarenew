@@ -19,7 +19,7 @@ export const Footer = () => {
                   <i className="fas fa-user-nurse text-2xl text-white"></i>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-1">نيرس كلينيك</h3>
+                  <h3 className="text-2xl font-bold text-white mb-1">رعاية</h3>
                   <p className="text-gray-300">خدمات التمريض المنزلي</p>
                 </div>
               </div>
