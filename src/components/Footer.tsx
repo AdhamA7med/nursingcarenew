@@ -19,7 +19,7 @@ export const Footer = () => {
                   <i className="fas fa-user-nurse text-2xl text-white"></i>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-1">رعاية</h3>
+                  <h3 className="text-2xl font-bold text-white mb-1">حواس</h3>
                   <p className="text-gray-300">خدمات التمريض المنزلي</p>
                 </div>
               </div>
@@ -67,13 +67,13 @@ export const Footer = () => {
                   <div className="bg-gradient-to-br from-primary to-primary-600 w-10 h-10 rounded-full flex items-center justify-center">
                     <i className="fas fa-phone text-white"></i>
                   </div>
-                  <span className="text-gray-300" dir="ltr">01148249020</span>
+                  <span className="text-gray-300" dir="ltr">01021750639</span>
                 </div>
                 <div className="flex items-center justify-center md:justify-start space-x-3 space-x-reverse">
                   <div className="bg-gradient-to-br from-green-500 to-green-600 w-10 h-10 rounded-full flex items-center justify-center">
                     <i className="fab fa-whatsapp text-white"></i>
                   </div>
-                  <span className="text-gray-300" dir="ltr">01148249020</span>
+                  <span className="text-gray-300" dir="ltr">01021750639</span>
                 </div>
                 <div className="flex items-center justify-center md:justify-start space-x-3 space-x-reverse">
                   <div className="bg-gradient-to-br from-primary to-primary-600 w-10 h-10 rounded-full flex items-center justify-center">
