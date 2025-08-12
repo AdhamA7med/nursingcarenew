@@ -34,10 +34,10 @@ export const ContactSection = () => {
                 className="text-2xl font-bold text-primary hover:text-primary-600 transition-colors block group-hover:scale-105 transform duration-200" 
                 dir="ltr"
               >
-                01148249020
+                01021750639
               </a>
               <button 
-                onClick={() => window.open('tel:+201148249020', '_self')}
+                onClick={() => window.open('tel:+201021750639', '_self')}
                 className="mt-4 bg-gradient-to-r from-primary to-primary-600 text-white px-6 py-3 rounded-full hover:from-primary-600 hover:to-primary-700 transition-all duration-300 transform hover:scale-105"
               >
                 اتصل الآن
@@ -55,16 +55,16 @@ export const ContactSection = () => {
               <h3 className="text-xl font-semibold text-primary mb-4">واتساب</h3>
               <p className="text-gray-600 mb-4">تواصل سريع ومباشر</p>
               <a 
-                href="https://wa.me/201148249020?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%85%D8%B1%D9%8A%D8%B6%20%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A" 
+                href="https://wa.me/201021750639?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%85%D8%B1%D9%8A%D8%B6%20%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors block group-hover:scale-105 transform duration-200" 
                 dir="ltr"
               >
-                01148249020
+                01021750639
               </a>
               <button 
-                onClick={() => window.open('https://wa.me/201148249020?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%85%D8%B1%D9%8A%D8%B6%20%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A', '_blank')}
+                onClick={() => window.open('https://wa.me/201021750639?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%85%D8%B1%D9%8A%D8%B6%20%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A', '_blank')}
                 className="mt-4 bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-full hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105"
               >
                 أرسل رسالة
@@ -138,14 +138,14 @@ export const ContactSection = () => {
                   <p className="text-red-600 mb-4">للحالات الطارئة، اتصل بنا فوراً</p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a 
-                      href="tel:+201148249020"
+                      href="tel:+201021750639"
                       className="bg-gradient-to-r from-red-500 to-red-600 text-white px-6 py-3 rounded-full hover:from-red-600 hover:to-red-700 transition-all duration-300 transform hover:scale-105 font-semibold"
                     >
                       <i className="fas fa-phone ml-2"></i>
                       اتصال طوارئ
                     </a>
                     <a 
-                      href="https://wa.me/201148249020?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D9%84%D8%AF%D9%8A%20%D8%AD%D8%A7%D9%84%D8%A9%20%D8%B7%D9%88%D8%A7%D8%B1%D8%A6%20%D9%88%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%85%D8%B1%D9%8A%D8%B6%20%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A"
+                      href="https://wa.me/201021750639?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D9%84%D8%AF%D9%8A%20%D8%AD%D8%A7%D9%84%D8%A9%20%D8%B7%D9%88%D8%A7%D8%B1%D8%A6%20%D9%88%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D9%85%D8%B1%D9%8A%D8%B6%20%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-full hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 font-semibold"
